@@ -1,0 +1,23 @@
+It is a short program that computes reset thresholds (the length of the 
+shortest synchronizing word) for all initially connected automata with fixed
+number of states and letters.
+Generation of initially connected automata is based on the paper of
+Marco Almeida, Nelma Moreira and Rogerio Reis "Enumeration and Generation of
+Initially Connected Deterministic Finite Automata."
+
+This program was written when I was still an undergrad. Afterwards it
+was reused during my PhD program as a basis for futher experiments.
+Results that were obtained with this program were used in the following
+papers:
+1) Dimitry S. Ananichev, Vladimir V. Gusev, Mikhail V. Volkov: Slowly 
+Synchronizing Automata and Digraphs.
+2) Vladimir V. Gusev: Lower Bounds for the Length of Reset Words in Eulerian
+Automata.
+3) Vladimir V. Gusev: Synchronizing Automata of Bounded Rank.
+
+I put this code here mostly for historical reasons. I am not going to improve
+it.
+
+Software that you also might want to use is the following:
+1) Krzysztof Chmiel, Adam Roman: COMPAS
+2) Avraham Trakhtman: TESTAS
